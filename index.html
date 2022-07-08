@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Document</title>
+</head>
+
+<body style="background-color:white" class=" mx-auto">
+  <!-- Menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light rounded  " aria-label="Twelfth navbar example">
+    <div class="container-fluid">
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10"
+        aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand fw-bold ms-5" id="navbartitulo" href="#">
+        <h1>Mim.</h1>
+      </a>
+      <div class="navbar-collapse collapse  justify-content-md-end" id="navbarsExample10">
+        <div class="usuarioNome mx-auto col-sm-0 col-lg-0">
+          <h2 class="mx-auto col-sm-0 col-lg-0">
+            <script type="text/javascript">
+              let bemvindo = confirm("Seja bem vindo");
+              let nome = prompt("Digite seu nome");
+              document.write(`Seja bem vindo ${nome[0].toLocaleUpperCase() + nome.substring(1)}`);
+            </script>
+          </h2>
+        </div>
+        <a href="https://www.linkedin.com/in/amarildozj/" class="fa fa-github black-color mx-3"
+          style="font-size:30px;text-decoration: none;"> <a>
+            <a href="https://www.linkedin.com/in/amarildozj/" class="fa fa-linkedin-square"
+              style="font-size:30px; text-decoration: none;"></a>
+            <ul class="navbar-nav me-5 fs-4">
+              <div class="">
+              </div>
+              <li class="nav-item">
+                <a class="nav-link me-5 ml-5 mx-5" href="#">Sobre esta página</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown"
+                  aria-expanded="false">Conteúdos</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown10">
+                  <li><a class="dropdown-item" href="#projetos">Projetos</a></li>
+                  <li><a class="dropdown-item" href="#contatos">Contatos</a></li>
+                </ul>
+              </li>
+            </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Fim Menu -->
+  <!-- Sobre -->
+  <div class="container">
+    <div class="row d-flex align-items-stretch">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6  text-center">
+        <img src="assets/Imagens/fotoCor.png" class="img-fluid" alt="">
+      </div>
+      <!-- <hr style="width: 100%; height: 20px; background-color: black;" class=""> -->
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 text-center align-self-end rounded-top" id="hoversobre"
+        style="background-color: whitesmoke ;">
+        <h1 class="mb-5 mt-5 borda" style="color:red;">Sobre está página</h1>
+        <p class="text-break fs-2 mx-5"><strong>Bem vindo</strong> ao meu portfólio, aqui você irá
+          encontrar todos os projetos desenvolvidos, em desenvolvimento e linguagens que utilizo para cada projeto.</p>
+        <p class="mt-5">"Acredito que não é necessário ver toda a escada, mas sim dar o primeiro
+          passo para conseguir chegar onde se almeja."</p>
+      </div>
+    </div>
+  </div>
+  <hr style="width: 100%; height: 20px; background-color: black;" class="rounded-bottom mt-0 mb-0">
+  <div class="total">
+    <!-- Fim Sobre -->
+    <!-- Carrossel -->
+    <h1 class="text-center" id="projetos">Projetos</h1>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" name="projetos">
+      <div class="carousel-inner rounded-5 text-center mb-5">
+        <div class="carousel-item active">
+          <a target="_blank" href="https://github.com/AmarildoZoletJunior/ProjetoDioFlexboxLandingPage"><img
+              src="assets/Imagens/telaprojeto3.png" class="img-fluid mx-auto d-block" alt="..."></a>
+          <div class="carousel-caption d-none d-md-block">
+            <div class="carrosel-escritapai">
+              <div class="back">
+                <h5 class="carrosel-titulo">Projeto Feito em bootcamp</h5>
+                <p class="carrosel-escrita">Projeto de uma pagina utilizando flexbox, bootcamp realizado na DIO. Esta
+                  totalmente responsiva. <strong style="color: red;">(Caso deseja ver o projeto clique em cima)</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a target="_blank" href="https://github.com/AmarildoZoletJunior/PageResponsiveForSignUp"><img
+              src="assets/Imagens/telaprojeto1.png" class="img-fluid mx-auto" alt="..."></a>
+          <div class="carousel-caption d-none d-md-block">
+            <div class="carrosel-escritapai">
+              <div class="back">
+                <h5 class="carrosel-titulo">Projeto tela de login</h5>
+                <p class="carrosel-escrita">Neste projeto utilizei apenas HTML e CSS. Está totalmente responsivo para
+                  todas
+                  as resoluções. <strong style="color: red;">(Caso deseja ver o projeto clique em cima)</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a target="_blank" href="https://github.com/AmarildoZoletJunior/LandingPageEnfermagem"><img
+              src="assets/Imagens/telaprojeto2.png" class="img-fluid mx-auto" alt="..."></a>
+          <div class="carousel-caption d-none d-md-block">
+            <div class="carrosel-escritapai">
+              <div class="back">
+                <h5 class="carrosel-titulo">Projeto Pagina rede social(base Instagram).</h5>
+                <p class="carrosel-escrita">Neste projeto utilizei apenas HTML e CSS. Está totalmente responsivo para
+                  todas
+                  as resoluções. <strong style="color: red;">(Caso deseja ver o projeto clique em cima)</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--Fim Carrossel -->
+    <!-- Linguagens -->
+    <div id="linguagenstopo" class="block">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+            <h1 class="text-center mb-2" style="    font-family: 'Press Start 2P', cursive;">Linguagens que utilizo</h1>
+            <div class="row rounded-top justify-content-center" id="rowLing">
+              <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 mb-3 mt-5 mx-2">
+                <img src="assets/Logo/732212.png" alt="" class="img-fluid" id="linguagens">
+              </div>
+              <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 mt-5 mx-3">
+                <img src="assets/Logo/logo-css-3-2048.png" class="img-fluid" id="linguagens" alt="">
+              </div>
+              <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 mb-3 mt-5 mx-2">
+                <img src="assets/Logo/Bootstrap_logo.svg.png" alt="" id="linguagens" class="img-fluid">
+              </div>
+              <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 mb-3 mt-5 mx-3">
+                <img src="assets/Logo/Unofficial_JavaScript_logo_2.svg.png" alt="" id="linguagens" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div name="contatos">
+  <footer class="text-center text-white" style="background-color: grey;">
+    <div class="container p-2"></div>
+    <div class="text-center p-0" style="color: black; font-style: italic;">
+      <p class="fs-5"> Caso queira entrar em contato comigo:</p>
+    </div>
+    <div class="text-center" style="background-color: grey;">
+      <i class="fa fa-phone" style="font-size:15px"></i> (47) 9 9667-1858
+    </div>
+    <div class="text-center" style="background-color: grey;">
+      <i class="fa fa-envelope" style="font-size:15px"></i> amarildozj@gmail.com
+    </div>
+    <div class="text-center" style="background-color: grey;">
+      <a href="https://www.linkedin.com/in/amarildozj/" class="fa fa-linkedin-square"
+        style="font-size:30px; text-decoration: none;"></a>
+      <a href="https://www.linkedin.com/in/amarildozj/" class="fa fa-github black-color mx-3"
+        style="font-size:30px;text-decoration: none;"> <a>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+</body>
+</html>

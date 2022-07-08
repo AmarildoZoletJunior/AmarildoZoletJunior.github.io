@@ -1,0 +1,68 @@
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+#navbartitulo h1{
+    font-family: 'Fredoka One', sans-serif !important;
+    font-size: 37px;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.black-color {
+    color:black;
+}
+.carousel-inner > .carousel-item > img {
+    position:relative;
+    min-width: 100%;
+    height: 450px; /* Altura da imagem dentro do Carrossel */
+    background-size: cover;
+}
+#carouselExampleControls{
+    max-width: 82%;
+    margin:auto;
+}
+#projetos{
+    font-family: 'Press Start 2P', cursive;
+}
+.carrosel-escrita{
+    font-size: 16px;
+    margin-bottom: -30px;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+}
+.carrosel-titulo{
+    color: black;
+}
+.carrosel-escritapai{
+    background-color: white;
+    opacity: 80%;
+    border-radius: 80px;
+}
+#hoversobre:hover{
+    font-size: 24px;
+}
+#hoversobre:hover h1{
+    background: -webkit-linear-gradient(rgb(149, 0, 2), rgb(115, 8, 85));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#linguagens{
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#rowLing{
+   background-color: whitesmoke;
+}
+#linguagens:hover{
+    transform: scale(1.2);
+    box-shadow: 15 solid black;
+}
+.total{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background: repeating-linear-gradient( 45deg, grey, grey 5px, #e5e5f7 5px, #e5e5f7 25px );
+}
